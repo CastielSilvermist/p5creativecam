@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+	margin: 30px;
+	background: black;
+
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	text-align: right;
+	color: lightblue;	
+}
+
+main {
+	text-align: center;
+	padding: 20px;
+}
+
+
+hr {
+	height: 2px;
+	background-color: lightblue;
+	border: none;
+}
+.hr2 {
+	height: 2px;
+	background-color: lightpink;
+	border: none;
+}
+footer {
+	padding-top: 30px;
+	color: lightpink;
+}
