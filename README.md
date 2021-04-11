@@ -13,7 +13,7 @@ The movement also has a fade effect applied. Depending on the users monitor, thi
 If the user wears glasses, it is best to remove them when using the filter, or else the tracker will glitch out. It cannot seem to deal with anything covering the eyes. 
 I decided to hide the users’ video feed from the webcam, so that the focus was completely on the canvas and the data points which are shaped as squares. 
 
-## Resources:
+## Sources & Resources Used:
 
 1. [clmtracker](https://github.com/auduno/clmtrackr)
 2. [P5 JavaScript](https://p5js.org/) 
