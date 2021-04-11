@@ -15,5 +15,5 @@ I decided to hide the users’ video feed from the webcam, so that the focus was
 
 ## Resources:
 
-⋅⋅*[clmtracker](https://github.com/auduno/clmtrackr)
-⋅⋅*[P5 JavaScript](https://p5js.org/) 
+⋅⋅* [clmtracker](https://github.com/auduno/clmtrackr)
+⋅⋅* [P5 JavaScript](https://p5js.org/) 
