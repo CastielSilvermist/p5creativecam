@@ -3,7 +3,7 @@
 ## Dotted Ghost Trail 
 ### By Jorinda Becker 
 
-This filter was created using clmtrackr and P5 JavaScript. It is a completely experimental Webcam filter as I explore p5js for the first time. 
+This filter was created using clmtrackr and P5 JavaScript. It is extremely simple and a completely experimental Webcam filter as I explore p5js for the first time. 
 
 Clmtrackr tracks over seventy points on the face, each of which can be altered as desired.
 My goal was to simply show each point that the tracker uses and have the colors change from white to pink when the users head moves to the right, 
