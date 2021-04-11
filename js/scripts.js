@@ -32,7 +32,7 @@ function draw() {
 		stroke(255,0,255);
 
 		position.forEach(function(pos) {
-			ellipse(pos[0], pos[1], 2)
+			square(pos[0], pos[1], 2)
 
 			//change color of stroke when head moves
 			var g = map(position[33][0], 250, 300, 0, 255, true)
