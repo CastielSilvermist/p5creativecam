@@ -9,7 +9,7 @@ function setup() {
 
 	//p5 method for creating video stream
 	vidcapture = createCapture(VIDEO);
-	vidcapture.size(vidcapture.width*2,vidcapture.height*3);
+	vidcapture.size(vidcapture.width*3,vidcapture.height*3.5);
 	vidcapture.hide() //hide original video capture.
 
 	//start tracker
@@ -29,14 +29,14 @@ function draw() {
 
 	if (position) {
 		
-		stroke(0,0,255);
+		stroke(255,0,255);
 
 		position.forEach(function(pos) {
 			ellipse(pos[0], pos[1], 2)
 
 			//change color of stroke when head moves
-			var g = map(position[5][0], 150, 300, 0, 255, true)
-			var b = map(position[62][1], 150, 200, 0, 255, true)
+			var g = map(position[33][0], 250, 300, 0, 255, true)
+			var b = map(position[33][1], 100, 255, 0, 255, true)
 			stroke(255, g , b)
 
 		})
